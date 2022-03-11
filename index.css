@@ -83,6 +83,7 @@ input:checked+label+.content {
     display: block;
     border-bottom: 1px solid hsl(240, 5%, 91%);
     padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
     color: hsl(240, 6%, 50%);
     line-height: 1.5rem;
 }
@@ -91,6 +92,7 @@ input:checked+label {
     border: none;
     color: hsl(238, 29%, 16%);
     font-weight: 700;
+    padding-bottom: 1rem;
 }
 
 label {
@@ -125,4 +127,61 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 65%;
+        height: 63%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .card-body {
+        margin-bottom: 0px;
+        padding-right: 8rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 3rem;
+    }
+
+    h1 {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .header {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .illustration {
+        content: url("./images/illustration-woman-online-desktop.svg");
+        position: absolute;
+        right: 6.5%;
+        top: 13.5%;
+        width: 115%;
+        z-index: 9;
+    }
+
+    .bg-pattern {
+        content: url('./images/bg-pattern-desktop.svg');
+        width: auto;
+        height: 185%;
+        position: absolute;
+        right: 7.5%;
+        top: -57%;
+    }
+
+    .container:before {
+        content: url("./images/illustration-box-desktop.svg");
+        position: absolute;
+        top: 40%;
+        left: -10%;
+        z-index: 99;
+    }
+
+
 }
