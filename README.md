@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-card-no-jspure-css-2oz_0L4ZW]
-- Live Site URL: [https://ericl81.github.io/FEM-FAQ_accordion_card/]
+- Live Site URL: [https://ericldev.github.io/FEM-FAQ_accordion_card/]
 
 # Frontend Mentor - FAQ accordion card
 
